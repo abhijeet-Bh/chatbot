@@ -31,7 +31,7 @@ This is the project that is made using two components (backend and frontend). To
    docker exec -it ollama bash
    ```
    ```shell
-   ollama pull tinyllama
+   ollama pull gemma:2b
    ```   
    ```shell
    exit
