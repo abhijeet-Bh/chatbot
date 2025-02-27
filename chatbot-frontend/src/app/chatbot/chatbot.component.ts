@@ -38,7 +38,7 @@ export class ChatbotComponent {
 
     try {
       const res = await this.http
-        .get<{ response: string }>(`http://127.0.0.1:5000/search?query=${encodeURIComponent(userMessage)}`)
+        .get<{ response: string }>(`http://localhost:5000/search?query=${encodeURIComponent(userMessage)}`)
         .toPromise();
 
       this.loading = false;
